@@ -56,7 +56,7 @@ export default defineConfig({
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     // },
   ],
-  snapshotPathTemplate: 'test/snapshot/{arg}{ext}',
+  snapshotPathTemplate: 'tests/snapshot/{arg}{ext}',
   /* Run your local dev server before starting the tests */
   webServer: {
     command: 'yarn dev',
